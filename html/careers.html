@@ -1,0 +1,58 @@
+<div class"formContainer">
+	<div id="careersAccordion">
+	  <h3>Step 1 - How to Apply</h3>
+	  <div>
+		<ol type="1">
+			<li>Download PALLC Employment Application 
+			<li>Complete the application
+			<li>Submit your application and resume
+		</ol>
+	  </div>
+	  <h3>Step 2 - Download Employment Application</h3>
+	  <div>
+		<p class="listNote"><a href="http://get.adobe.com/reader/" target="blank">Adobe Reader</a> may be needed to view and complete the application.</p>
+		<p><a href="doc/PALLC_Employment.pdf" target="blank" style="font-weight:bold;">PALLC Employment Application</a></p>
+	  </div>
+	  <h3>Step 3 - Submit Application and Resume</h3>
+	  <div>
+		<!--<p>Send your completed application and resume to: <a href="mailto:Info@pallc.co" target="_top" style="font-weight:bold;">Info@pallc.co</a></p>-->
+		<div id="careersFormOutterWrapper">
+			<div id="careersFormInnerWrapper">
+				<form id="resume_form" action="php/mail.php" method="post" enctype="multipart/form-data">
+						<div class="formRow">
+							<div class="formLabelDiv"><label for="name">Name <span class="required">*</span></label></div>
+							<div class="formInputDiv"><input type="text" name="name" id="name" required="true" class="ui-corner-all" style="width: 175px"/></div>
+						</div>
+						<div class="formRow">
+							<div class="formLabelDiv"><label for="email">Email <span class="required">*</span></label></div>
+							<div class="formInputDiv"><input type="email" name="email" required="true" class="ui-corner-all" style="width:255px"/></div>
+						</div>
+						<div class="formRow">		
+							<div class="formLabelDiv"><label for="phone">Phone <span class="required">*</span></label></div>
+							<div class="formInputDiv"><input type="text" name="phone" maxlength="10" placeholder="3012715555"  required="true" class="ui-corner-all" style="width: 100px"/></div>
+						</div>
+						<div class="formRow formBreakLine">		
+							<div class="formLabelDiv attachLabelDiv"><label for="file_attach">Application  <span class="required">*</span></label></div>
+							<div class="formInputDiv"><input type="file" name="file_attach" required="true" class="input-file" /></div>
+						</div>
+						<div class="formRow">		
+							<div class="formLabelDiv attachLabelDiv"><label for="file_attach2">Resume</label></div>
+							<div class="formInputDiv"><input type="file" name="file_attach2" class="input-file" /></div>
+						</div>						
+						<div class="formRow formBreakLine">		
+							<div class="formLabelDiv"><label for="message">Message</label></div>
+							<div class="formInputDiv"><textarea name="message" id="message" maxlength="300" class="ui-corner-all" required="true" col="100" row="5"></textarea><label id="charsRemainingLabel">[<span id="charsRemaining"></span>]<label></div>
+						</div>		
+						<br><br>		
+						<div id="submitDiv" class="formBreakLine">
+							<div style="float:right;"><input id="resumeSubmitButton" type="submit" value='Submit' class='ui-button' /></div>
+						</div>
+				</form>
+			</div>
+		</div>		
+	  </div>
+	</div>
+	<div id="careersDialog" title="Employment Submission">
+		<p id="careersDialogMsg"></p>
+	</div>
+</div>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>6.4</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>true</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>fade</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>false</FullScreen>
+            <GalleryName>PALLC</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>brick</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>400</ImageHeight>
+            <ImageQuality>100</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>C:/IDE/wow_slider/WOW Slider/templates/backgnd/box/</ImageTemplate>
+            <ImageTemplateName>Box</ImageTemplateName>
+            <ImageWidth>800</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>true</Preloader>
+            <PublishFileName>C:/Workspace/Html_Workspace/pallc/html/test.html</PublishFileName>
+            <PublishIndex>test.html</PublishIndex>
+            <PublishPath>C:/Workspace/Html_Workspace/pallc/html</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>true</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>0</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>55</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <TemplateName>box</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="true">
+            <Image>
+                <url>../../img/home_slider/photo1.png</url>
+                <title>Warehouse</title>
+                <filesize>516745</filesize>
+            </Image>
+            <Image>
+                <url>../../img/home_slider/photo2.png</url>
+                <title>Prefab Area</title>
+                <filesize>449699</filesize>
+            </Image>
+            <Image>
+                <url>../../img/home_slider/photo3.png</url>
+                <title>Warehouse</title>
+                <filesize>451876</filesize>
+            </Image>
+            <Image>
+                <url>../../img/home_slider/photo4.png</url>
+                <title>Power Quality Meter</title>
+                <description>Power Quality Meter installed in State Department Facilities</description>
+                <filesize>353455</filesize>
+            </Image>
+            <Image>
+                <url>../../img/home_slider/photo5.png</url>
+                <title>Control Panel</title>
+                <filesize>489750</filesize>
+            </Image>
+            <Image>
+                <url>../../img/home_slider/photo6.png</url>
+                <title>Utility Truck</title>
+                <filesize>443368</filesize>
+            </Image>
+            <Image>
+                <url>../../img/home_slider/photo7.png</url>
+                <title>Utility Van</title>
+                <filesize>408930</filesize>
+            </Image>
+            <Image>
+                <url>../../img/home_slider/photo8.png</url>
+                <title>Front Office</title>
+                <filesize>416347</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

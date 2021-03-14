@@ -1,0 +1,423 @@
+a{
+   cursor: pointer;
+}
+
+body {
+	font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+	font-size: 0.9em;
+}
+
+input {
+  border: 1px solid #aaaaaa;
+  padding: 2px 5px;
+}
+
+textarea {
+  border: 1px solid #aaaaaa;
+  padding: 2px 5px;
+}
+
+.attachLabelDiv{
+	vertical-align:bottom;
+}
+
+#body-main-pic-container {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#body-phone-container{
+	width: 100%;
+	height: 30px;
+	padding: 2px 0;
+	text-align: center;
+}
+
+#body-phone {
+  color: grey;
+  font-size: 20pt;
+}
+
+#body-quotes-container{
+	width: 100%;
+	text-align: center;
+}
+
+#body-quotes-wrapper {
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  width: 900px;
+}
+
+.browseButton{
+	font-family: Lucida Grande,Lucida Sans,Arial,sans-serif !important;
+}
+
+#body-quotes-wrapper p {
+  padding: 0 20px;
+}
+
+#careersAccordion {
+  font-size: 1em;
+  margin: 20px auto;
+  width: 725px;
+}
+
+#careersAccordion h3{
+  font-weight: bold;
+}
+
+
+#careersDialogMsg a {
+  color: blue;
+}
+
+#careersFormOutterWrapper{
+}
+
+#careersFormInnerWrapper {
+  margin: 0 auto;
+  width: 690px;
+}
+
+#center-div{
+	overflow: auto;
+}
+
+.center-text{
+	text-align: center;
+}
+
+#charsRemaining {
+  padding: 0 2px;
+}
+
+#charsRemainingLabel {
+  color: grey;
+  margin: 0 5px;
+}
+
+.dialogMsgIcon{
+	float:left; 
+	margin:0 7px 50px 0;
+}
+
+.flex-img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.footer{
+	background-color: #3B3B3B;
+	color: #ffffff;
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 28px;
+	padding: 0;	
+}
+
+.formBreakLine{
+	clear: both;
+}
+
+.formLabelDiv {
+  float: left;
+  padding: 10px 2px 10px 5px;
+  vertical-align: top;
+}
+
+.formInputDiv {
+  float: left;
+  padding: 10px 10px 10px 5px;
+}
+
+.formRow {
+  margin: 10px;
+  float: left;
+}
+
+.header {
+	font-size: 1.2em;
+}
+
+#header_banner_container{
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+#header_banner{
+	margin: 0 auto;
+}
+
+#header_banner img {
+  margin-top: 12px;
+}
+
+#header_logo{
+    position: fixed;
+    top: 0;
+}
+
+#header_nav_container {
+  background-color: #3b3b3b;
+  height: 35px;
+  width: 100%;
+}
+
+.header_nav_item {
+	color: #ebebeb;
+	font-size: 1.0em;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.header_nav_item:hover{
+	color: #1EBB0E;
+}
+
+#header_nav_wrapper{
+	width: 510px;
+	margin: 0 auto;
+}
+#header_nav_wrapper nav {
+  text-align: center;
+  width: 100%;
+}
+
+#header_nav_wrapper nav ul li {
+	display: inline-block;
+	margin: 0;
+	background-image: none;
+	padding: 7px 50px 0 0;
+}
+
+#header_nav_wrapper nav ul{
+	margin: 0;
+}
+
+#home_statement_info{
+	font-size: 1.1em;
+}
+
+.home-quote-container {
+  float: left;
+  width: 300px;
+}
+
+.home-quote-info {
+  font-size: 1.0em;
+  font-style: italic;
+}
+
+#home_slide_container{
+	padding: 15px;
+	text-align: center;
+}
+
+#home_statement_container{
+	padding: 15px;
+	text-align: center;
+}
+
+#home_statement_container fieldset {
+	margin: 0 auto;
+	width: 785px;
+}
+
+#home_statement_container fieldset legend {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 5px 10px;
+	text-align: left;
+}
+
+#gallery_content{
+	display: inline-block;
+	width: 100%;
+}
+
+#gallery_slide_container{
+	padding: 15px;
+	text-align: center;
+}
+
+.inputHighlight{
+	background-color: #DFFCD1;
+}
+
+.input-file {
+  border: medium none;
+}
+
+.main-slider-pic-text{
+	position: absolute; 
+	width: 450px; 
+	height: 120px; 
+	top: 425px; 
+	left: 30px; 
+	padding: 5px; 
+	text-align: left; 
+	line-height: 22px; 
+	font-size: 20px; 
+	color: #FFFFFF;
+}
+
+#message {
+  width: 400px;
+}
+
+.nav_selected{
+	border-bottom: 5px solid #61B43A;
+}
+
+ul {
+	list-style: none outside none;
+}
+
+.partnerImage{
+	padding: 5px;
+}
+
+.partnerName{
+	color: #0F0FAD;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.partnerName:hover{
+	color: #61B43A;
+}
+
+#partnersTable_wrapper {
+  clear: both;
+  margin: 0 auto;
+  position: relative;
+  width: 800px;
+}
+
+#partnersTable_wrapper  .fg-toolbar:last-child {
+	height: 12px;
+}
+
+#partnersTable_filter input:first-child{
+	width: 250px;
+}
+
+#resumeSubmitButton {
+  margin-top: 15px;
+}
+
+.required {
+  color: #61b43a;
+}
+
+#submitDiv {
+  float: right;
+  padding-right: 15px;
+  width: 150px;
+}
+
+#tabs-1 {
+	height: 300px;
+}
+
+.ui-widget {
+	font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+	font-size: 0.9em;
+}
+
+.waitingGif {
+  border: medium none;
+  float: left;
+  padding: 5px;
+}
+
+/* Drag N Drop */
+#dragandrophandler{
+	border:2px dotted #0B85A1;
+	width:400px;
+	color:#92AAB0;
+	text-align:left;vertical-align:middle;
+	padding:10px 10px 10 10px;
+	margin-bottom:10px;
+	font-size:200%;
+}
+
+.progressBar {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    overflow: hidden;
+    display:inline-block;
+    margin:0px 10px 5px 5px;
+    vertical-align:top;
+}
+
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #0ba1b5; border-radius: 3px; 
+}
+
+.statusbar{
+    border-top:1px solid #A9CCD1;
+    min-height:25px;
+    width:700px;
+    padding:10px 10px 0px 10px;
+    vertical-align:top;
+}
+
+.statusbar:nth-child(odd){
+    background:#EBEFF0;
+}
+
+.filename
+	{
+	display:inline-block;
+	vertical-align:top;
+	width:250px;
+}
+
+.filesize{
+	display:inline-block;
+	vertical-align:top;
+	color:#30693D;
+	width:100px;
+	margin-left:10px;
+	margin-right:5px;
+}
+.abort{
+    background-color:#A8352F;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;display:inline-block;
+    color:#fff;
+    font-family:arial;font-size:13px;font-weight:normal;
+    padding:4px 15px;
+    cursor:pointer;
+    vertical-align:top
+}
+
+/*Slider Arrows*/
+.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../img/a21.png) center center no-repeat;
+	overflow: hidden;
+}
+.jssora21l { background-position: -3px -33px; }
+.jssora21r { background-position: -63px -33px; }
+.jssora21l:hover { background-position: -123px -33px; }
+.jssora21r:hover { background-position: -183px -33px; }
+.jssora21ldn { background-position: -243px -33px; }
+.jssora21rdn { background-position: -303px -33px; }
